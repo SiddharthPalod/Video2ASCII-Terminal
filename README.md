@@ -22,7 +22,7 @@ You can install these dependencies by running:
 
 ```bash
 pip install opencv-python Pillow yt-dlp
-
+    ```
 ## How It Works
 
 1. **Download YouTube Videos (optional)**: If a YouTube URL is provided, the video is downloaded using `yt-dlp`.
@@ -60,10 +60,6 @@ pip install opencv-python Pillow yt-dlp
 
 - **Output Width**: The default output width for ASCII frames is set to 100 characters. You can modify the `output_width` argument in the `frame_to_ascii` function to adjust this.
 - **Character Set**: The ASCII characters used for the conversion can be customized by modifying the `chars` string.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Acknowledgements
 
