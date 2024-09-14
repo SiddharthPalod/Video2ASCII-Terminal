@@ -18,11 +18,6 @@ The following Python packages are required to run this script:
 - `Pillow`: For image processing and resizing.
 - `yt-dlp`: For downloading YouTube videos.
 
-You can install these dependencies by running:
-
-```bash
-pip install opencv-python Pillow yt-dlp
-    ```
 ## How It Works
 
 1. **Download YouTube Videos (optional)**: If a YouTube URL is provided, the video is downloaded using `yt-dlp`.
